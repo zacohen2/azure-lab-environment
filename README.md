@@ -1,4 +1,4 @@
-# note: Possible issues in all machines: the network interface name is different From what is written in the script (probably "Ethernet 2" instead of "Ethernet")
+# Note: Possible issues in all machines: the network interface name is different From what is written in the script (probably "Ethernet 2" instead of "Ethernet")
 
 
 
