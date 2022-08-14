@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_DC_1_name": {
+            "value": null
+        },
+        "virtualMachines_DC_2_name": {
+            "value": null
+        },
+        "virtualMachines_WIN_1_name": {
+            "value": null
+        },
+        "virtualMachines_WIN_2_name": {
+            "value": null
+        },
+        "virtualNetworks_DC_vnet_name": {
+            "value": null
+        },
+        "publicIPAddresses_DC_1_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_DC_2_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_WIN_1_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_WIN_2_ip_name": {
+            "value": null
+        },
+        "networkInterfaces_dc_1643_z1_name": {
+            "value": null
+        },
+        "networkInterfaces_dc_2389_z1_name": {
+            "value": null
+        },
+        "networkInterfaces_win_1579_z1_name": {
+            "value": null
+        },
+        "networkInterfaces_win_2325_z1_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DC_1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_DC_2_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_WIN_1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_WIN_2_nsg_name": {
+            "value": null
+        }
+    }
+}

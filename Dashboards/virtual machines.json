@@ -1,0 +1,248 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 6
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Compute/VirtualMachines"
+                },
+                {
+                  "name": "kind",
+                  "isOptional": true
+                },
+                {
+                  "name": "view",
+                  "value": {
+                    "id": "2badd100-1707-42cf-b0fd-867ae122a077",
+                    "name": "2badd100-1707-42cf-b0fd-867ae122a077",
+                    "filterFacets": [
+                      {
+                        "key": "typeDisplayName",
+                        "uniqueId": "2badd100-1707-42cf-b0fd-867ae122a06e",
+                        "display": "Type",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "microsoft.compute/virtualmachines",
+                            "displayName": "Virtual machines",
+                            "count": "",
+                            "resourceType": {
+                              "resourceTypeName": "microsoft.compute/virtualmachines",
+                              "selected": true
+                            }
+                          },
+                          {
+                            "name": "microsoft.scvmm/virtualmachines",
+                            "displayName": "SCVMM virtual machine - Azure Arc",
+                            "count": "",
+                            "resourceType": {
+                              "resourceTypeName": "microsoft.scvmm/virtualmachines",
+                              "selected": true
+                            }
+                          },
+                          {
+                            "name": "microsoft.connectedvmwarevsphere/virtualmachines:avs",
+                            "displayName": "AVS virtual machine",
+                            "count": "",
+                            "resourceType": {
+                              "resourceTypeName": "microsoft.connectedvmwarevsphere/virtualmachines",
+                              "resourceKindName": "AVS",
+                              "selected": true
+                            }
+                          },
+                          {
+                            "name": "microsoft.connectedvmwarevsphere/virtualmachines:vmware",
+                            "displayName": "VMware virtual machine - Azure Arc",
+                            "count": "",
+                            "resourceType": {
+                              "resourceTypeName": "microsoft.connectedvmwarevsphere/virtualmachines",
+                              "resourceKindName": "VMware",
+                              "selected": true
+                            }
+                          },
+                          {
+                            "name": "microsoft.azurestackhci/virtualmachines",
+                            "displayName": "Azure Stack HCI virtual machine - Azure Arc",
+                            "count": "",
+                            "resourceType": {
+                              "resourceTypeName": "microsoft.azurestackhci/virtualmachines",
+                              "selected": true
+                            }
+                          }
+                        ],
+                        "isAllValues": true,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "resourceGroup",
+                        "uniqueId": "2badd100-1707-42cf-b0fd-867ae122a06f",
+                        "display": "Resource group",
+                        "operator": 1,
+                        "isAllValues": true,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "locationDisplayName",
+                        "uniqueId": "2badd100-1707-42cf-b0fd-867ae122a070",
+                        "display": "Location",
+                        "operator": 1,
+                        "isAllValues": true,
+                        "facetKind": 1
+                      }
+                    ],
+                    "groupByValue": "",
+                    "sortedColumns": [
+                      {
+                        "sortBy": "name",
+                        "order": 1,
+                        "castFunction": 2
+                      }
+                    ],
+                    "showAll": false,
+                    "gridColumns": [
+                      {
+                        "id": "assetType",
+                        "name": "Type",
+                        "description": "Display name of the resource type.",
+                        "visible": true,
+                        "index": 0
+                      },
+                      {
+                        "id": "subscription",
+                        "name": "Subscription",
+                        "visible": true,
+                        "index": 1
+                      },
+                      {
+                        "id": "resourceGroup",
+                        "name": "Resource group",
+                        "visible": true,
+                        "index": 2
+                      },
+                      {
+                        "id": "location",
+                        "name": "Location",
+                        "description": "The supported Azure location where the resource exists.",
+                        "visible": true,
+                        "index": 3
+                      },
+                      {
+                        "id": "status",
+                        "name": "Status",
+                        "visible": true,
+                        "description": "Status",
+                        "index": 4
+                      },
+                      {
+                        "id": "os",
+                        "name": "Operating system",
+                        "visible": true,
+                        "description": "Operating system",
+                        "index": 5
+                      },
+                      {
+                        "id": "vmSize",
+                        "name": "Size",
+                        "visible": true,
+                        "description": "Size",
+                        "index": 6
+                      },
+                      {
+                        "id": "publicIpAddress",
+                        "name": "Public IP address",
+                        "visible": true,
+                        "description": "Public IP address",
+                        "index": 7
+                      },
+                      {
+                        "id": "disks",
+                        "name": "Disks",
+                        "visible": true,
+                        "description": "Disks",
+                        "index": 8
+                      }
+                    ],
+                    "gridColumnWidths": {
+                      "assetType": "100fr",
+                      "subscription": "100fr",
+                      "resourceGroup": "100fr",
+                      "location": "100fr",
+                      "status": "100fr",
+                      "os": "100fr",
+                      "vmSize": "100fr",
+                      "publicIpAddress": "100fr",
+                      "disks": "100fr"
+                    },
+                    "currentView": 1,
+                    "visualizationId": "location",
+                    "visualizationType": 4,
+                    "visualizationThreshold": 1
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseResourceTile"
+            }
+          },
+          "1": {
+            "position": {
+              "x": 6,
+              "y": 0,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceGroup",
+                  "isOptional": true
+                },
+                {
+                  "name": "id",
+                  "value": "/subscriptions/acdeef44-8e30-4392-9569-8329643ea3f4/resourceGroups/dc",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/ResourceGroupMapPinnedPart"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "Virtual machines",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Virtual machines"
+  },
+  "apiVersion": "2015-08-01-preview"
+}

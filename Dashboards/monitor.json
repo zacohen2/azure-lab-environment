@@ -1,0 +1,811 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "Available Memory Bytes",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "Available Memory Bytes (Preview)",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg Available Memory Bytes (Preview) for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "Disk Read Bytes",
+                          "aggregationType": 1,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "Disk Read Bytes",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Sum Disk Read Bytes for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "2": {
+            "position": {
+              "x": 8,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "Disk Read Operations/Sec",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "Disk Read Operations/Sec",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg Disk Read Operations/Sec for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "3": {
+            "position": {
+              "x": 12,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "OS Disk Bandwidth Consumed Percentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "OS Disk Bandwidth Consumed Percentage",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg OS Disk Bandwidth Consumed Percentage for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "4": {
+            "position": {
+              "x": 0,
+              "y": 4,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "OS Disk Read Bytes/sec",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "OS Disk Read Bytes/Sec",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg OS Disk Read Bytes/Sec for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "5": {
+            "position": {
+              "x": 4,
+              "y": 4,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "VM Cached Bandwidth Consumed Percentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "VM Cached Bandwidth Consumed Percentage",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg VM Cached Bandwidth Consumed Percentage for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "6": {
+            "position": {
+              "x": 8,
+              "y": 4,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "OS Disk Write Bytes/sec",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "OS Disk Write Bytes/Sec",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg OS Disk Write Bytes/Sec for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "7": {
+            "position": {
+              "x": 12,
+              "y": 4,
+              "colSpan": 4,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "eastus",
+                            "resourceType": "microsoft.compute/virtualmachines",
+                            "subscription": {
+                              "subscriptionId": "8c642660-6de9-43d6-9832-31175083e698",
+                              "displayName": "Azure subscription 1",
+                              "uniqueDisplayName": "Azure subscription 1"
+                            }
+                          },
+                          "name": "VM Uncached IOPS Consumed Percentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.compute/virtualmachines",
+                          "metricVisualization": {
+                            "displayName": "VM Uncached IOPS Consumed Percentage",
+                            "resourceDisplayName": "Azure subscription 1"
+                          }
+                        }
+                      ],
+                      "title": "Avg VM Uncached IOPS Consumed Percentage for Azure subscription 1 in East US region  by ResourceId where ResourceGroupName = 'dc'",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideSubtitle": false
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "filterCollection": {
+                        "filters": [
+                          {
+                            "key": "Microsoft.ResourceGroupName",
+                            "operator": 0,
+                            "values": [
+                              "dc"
+                            ]
+                          }
+                        ]
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "Microsoft.ResourceGroupName": {
+                  "model": {
+                    "operator": "equals",
+                    "values": [
+                      "dc"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "UTC Time",
+                "value": "Past 24 hours"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafea3",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafeb6",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafec2",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafece",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafeda",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafee6",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7cafefe",
+                "StartboardPart-MonitorChartPart-ce2aa7a2-06dc-44ca-a6b7-b3a6c7caff0a"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Monitoring",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Monitoring"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
