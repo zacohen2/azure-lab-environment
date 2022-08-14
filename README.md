@@ -1,3 +1,7 @@
+# note: Possible issues in all machines: the network interface name is different From what is written in the script (probably "Ethernet 2" instead of "Ethernet")
+
+
+
 # DC1 CONFIGURATION  
 1. The template should be uploaded to a resource-free group  
 2. connect to DC-1 using rdp connection username: azureteadmin password: 432rfsedfr!aaA  
